@@ -5,6 +5,7 @@ from sortipy.sorters.DefaultSorter import DefaultSorter
 def sort(path: str, extensions: List[str] = []) -> Dict[str, List[str]]:
     """
     Sorts files in a directory based on their extensions.
+    
 
     Args:
         path (str): The path to the directory containing files to be sorted.
