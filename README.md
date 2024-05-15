@@ -1,7 +1,9 @@
 <h1 align="center">Sortipy</h1>
 
+
+
 <p align="center">
-    <img src="https://img.shields.io/badge/Python-%3E%3D3.6-yellow"> <img src="https://img.shields.io/badge/version-0.0.5_alpha-red"> <img src="https://img.shields.io/badge/Category-File_management_-orange"> <img src="https://img.shields.io/badge/Tools-Automation-blue">
+    <img src="https://img.shields.io/badge/Python-%3E%3D3.6-yellow"> <img src="https://img.shields.io/badge/version-0.0.5_alpha-red"> <img src="https://img.shields.io/badge/Category-File_management_-orange"> <img src="https://img.shields.io/badge/Tools-Automation-blue"> 
 </p>
 
 <p align="center"><b><i>Sortipy</i></b> is a Python package designed to help you organize files in a directory by sorting them based on their file extensions.</p>
@@ -20,7 +22,8 @@
 
 ## Installation
 
-You can install Sortipy using pip:
+[![Upload Python Package](https://github.com/pzzzl/sortipy/actions/workflows/python-publish.yml/badge.svg)](https://github.com/pzzzl/sortipy/actions/workflows/python-publish.yml)
+<br>You can install Sortipy using pip:
 
 ```bash
 pip install sortipy
