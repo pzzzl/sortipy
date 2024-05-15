@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='sortipy',
-    version='0.0.5',
+    version='0.0.6',
     author='Bruno Peselli',
     author_email='brunopeselli@gmail.com',
     description='Sortipy is designed to help you organize files in a directory by sorting them based on their file extensions.',
