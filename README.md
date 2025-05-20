@@ -35,13 +35,13 @@ pip install sortipy
 from sortipy import sortipy
 
 # Sort files in a directory without specifing extensions
-sort_everything = sortipy.sort("path/to/your/directory")
+files_sorted = sortipy.sort("path/to/your/directory")
 
 # Sort files in a directory and specify extensions to consider
-sort_specific_extensions = sortipy.sort("path/to/your/directory", extensions=["pdf", "txt"])
+specific_extensions_sorted = sortipy.sort("path/to/your/directory", extensions=["pdf", "txt"])
 
 # Print the sorted results
-print(sort_everything)
+print(files_sorted)
 ```
 
 ### Parameters
