@@ -1,14 +1,15 @@
+"""Exceptions."""
+
+
 class DirectoryNotFoundError(Exception):
-    """
-    Exception raised when a directory is not found.
+    """Exception raised when a directory is not found.
 
     Attributes:
         directory (str): The path of the directory that was not found.
     """
 
     def __init__(self, directory: str):
-        """
-        Initializes a DirectoryNotFoundError object with the given directory path.
+        """Initializes a DirectoryNotFoundError object with the given directory path.
 
         Args:
             directory (str): The path of the directory that was not found.
@@ -17,16 +18,14 @@ class DirectoryNotFoundError(Exception):
 
 
 class EmptyDirectoryError(Exception):
-    """
-    Exception raised when a directory is found to be empty.
+    """Exception raised when a directory is found to be empty.
 
     Attributes:
         directory (str): The path of the empty directory.
     """
 
     def __init__(self, directory: str):
-        """
-        Initializes an EmptyDirectoryError object with the given directory path.
+        """Initializes an EmptyDirectoryError object with the given directory path.
 
         Args:
             directory (str): The path of the empty directory.
@@ -35,16 +34,14 @@ class EmptyDirectoryError(Exception):
 
 
 class ExtensionNotAllowedError(Exception):
-    """
-    Exception raised when a file extension is not allowed.
+    """Exception raised when a file extension is not allowed.
 
     Attributes:
         extension (str): The file extension that is not allowed.
     """
 
     def __init__(self, extension: str):
-        """
-        Initializes an ExtensionNotAllowedError object with the given extension.
+        """Initializes an ExtensionNotAllowedError object with the given extension.
 
         Args:
             extension (str): The file extension that is not allowed.

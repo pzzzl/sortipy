@@ -1,10 +1,13 @@
+"""File."""
+
 from pathlib import Path
-from sortipy.exceptions.exceptions import ExtensionNotAllowedError
 from typing import List
 
+from sortipy.exceptions.exceptions import ExtensionNotAllowedError
+
+
 class File:
-    """
-    Represents a file with specified extensions.
+    """Represents a file with specified extensions.
 
     Attributes:
         path (str): The path to the file.
@@ -14,8 +17,7 @@ class File:
     """
 
     def __init__(self, path: str, extensions: List[str]):
-        """
-        Initializes a File object with the given path and allowed extensions.
+        """Initializes a File object with the given path and allowed extensions.
 
         Args:
             path (str): The path to the file.
@@ -35,40 +37,45 @@ class File:
 
     @property
     def path(self) -> str:
-        """
+        """Path.
+
         Returns:
-            str: The path to the file.
+        str: The path to the file.
         """
         return self._path
-    
+
     @property
     def folder(self) -> str:
-        """
+        """Folder.
+
         Returns:
-            str: The folder containing the file.
+        str: The folder containing the file.
         """
         return self._parent
-    
+
     @property
     def name(self) -> str:
-        """
+        """Name.
+
         Returns:
-            str: The name of the file without the extension.
+        str: The name of the file without the extension.
         """
         return self._stem
-    
+
     @property
     def extension(self) -> str:
-        """
+        """Extension.
+
         Returns:
-            str: The extension of the file.
+        str: The extension of the file.
         """
         return self._suffix
-    
+
     @property
     def full_name(self) -> str:
-        """
+        """Full name.
+
         Returns:
-            str: The full name of the file (including extension).
+        str: The full name of the file (including extension).
         """
         return self._full_name
